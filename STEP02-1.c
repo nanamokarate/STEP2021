@@ -56,7 +56,7 @@ int main(int argc, char** argv)
   for (i = 0; i < n; i++) {
     for (j = 0; j < n; j++) {
       sum += c[i * n + j];
-      printf("c[%d][%d]=%lf\n", i, j, c[i * n + j]);
+      //printf("c[%d][%d]=%lf\n", i, j, c[i * n + j]);
     }
   }
   // Print out the sum of all values in C.
